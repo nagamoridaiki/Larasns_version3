@@ -14,5 +14,4 @@ use App\Http\Controllers\ArticleController;
 |
 */
 
-//Route::get('/', 'ArticleController@index');
-Route::get('/',[ArticleController::class, 'index']);
+Route::get('/', 'ArticleController@index');
